@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <Intro text="yeee" />
-      <CheckBox checked={checked} onChange={() => setChecked(!checked)} />
+        <Intro header="yeee" summary="Are you tired of cyka blyat?" />
+       <CheckBox checked={checked} onChange={() => setChecked(!checked)} />
     </>
   );
 }
