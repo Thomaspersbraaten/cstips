@@ -1,7 +1,7 @@
-export default function Intro(header: string) {
+export default function Intro({ text }) {
   return (
     <div>
-      <h1>{header} </h1>
+      <h1>{text}</h1>
     </div>
   );
 }
