@@ -7,6 +7,10 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      "cs-orange": '#E48717',
+      "cs-blue": '#283780',
+    },
     extend: {
       colors: {
         background: "var(--background)",
