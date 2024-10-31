@@ -1,7 +1,7 @@
-export default function Intro() {
+export default function Intro(header: string) {
   return (
     <div>
-      <h1>Welcome you drunk bastards. </h1>
+      <h1>{header} </h1>
     </div>
   );
 }
