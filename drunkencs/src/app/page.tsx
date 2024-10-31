@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <Intro text="yeee" />
+      <Intro header="yeee" summary="Are you tired of cyka blyat?" />
     </>
   );
 }
